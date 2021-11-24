@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="https://www.youtube.com/s/desktop/12d6b690/img/favicon.ico">
+
+		<title>Examen Inicio Sesión</title>
+		<meta name="description" content="descripción de la web, se recomienda 90 caracteres">
+        <meta name="keywords" 	 content="palabras clave, separadas, por comas">
+
+		<!-- 
+        <meta property="fb:app_id"        content="" /> 
+		<meta property="og:url"           content="" />
+		<meta property="og:type"          content="website" />
+		<meta property="og:title"         content=""/>
+		<meta property="og:description"   content="" /> 
+        -->
+
+        <link href="style/normalize.css" rel="stylesheet">
+        <link href="style/main.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <main>
+            <form class="main-form">
+                <div class="main-form__subtitle">
+                    <h3>Accede a tu cuenta</h3>
+                </div>
+                <div class="main-form__crud">
+                    <div class="crud__form-label">
+                        <label for="email">Dirección de correo electrónico o nombre de usuario</label>
+                    </div>
+                    <div class="crud__form-input">
+                        <input type="email" name="email">
+                    </div>
+                    <div class="main-form__conditions">
+                        <p>Al continuar, aceptas nuestras <a>condiciones del servicio</a></p>
+                    </div>
+                    <div class="main-form__button">
+                        <button class="button__style" id="pink-button">Continuar</button>
+                    </div>
+                </div>
+                <div class="main-form__draw">
+                    <p id="draw">O</p>
+                </div>
+                <div class="main-form__crud">
+                    <div class="main-form__button">
+                        <button class="button__style" id="white-button"><svg viewBox="0 0 24 24">
+                            <g transform="matrix(1, 0, 0, 1, 27.009001, -39.238998)">
+                              <path fill="#4285F4" d="M -3.264 51.509 C -3.264 50.719 -3.334 49.969 -3.454 49.239 L -14.754 49.239 L -14.754 53.749 L -8.284 53.749 C -8.574 55.229 -9.424 56.479 -10.684 57.329 L -10.684 60.329 L -6.824 60.329 C -4.564 58.239 -3.264 55.159 -3.264 51.509 Z"></path>
+                              <path fill="#34A853" d="M -14.754 63.239 C -11.514 63.239 -8.804 62.159 -6.824 60.329 L -10.684 57.329 C -11.764 58.049 -13.134 58.489 -14.754 58.489 C -17.884 58.489 -20.534 56.379 -21.484 53.529 L -25.464 53.529 L -25.464 56.619 C -23.494 60.539 -19.444 63.239 -14.754 63.239 Z"></path>
+                              <path fill="#FBBC05" d="M -21.484 53.529 C -21.734 52.809 -21.864 52.039 -21.864 51.239 C -21.864 50.439 -21.724 49.669 -21.484 48.949 L -21.484 45.859 L -25.464 45.859 C -26.284 47.479 -26.754 49.299 -26.754 51.239 C -26.754 53.179 -26.284 54.999 -25.464 56.619 L -21.484 53.529 Z"></path>
+                              <path fill="#EA4335" d="M -14.754 43.989 C -12.984 43.989 -11.404 44.599 -10.154 45.789 L -6.734 42.369 C -8.804 40.429 -11.514 39.239 -14.754 39.239 C -19.444 39.239 -23.494 41.939 -25.464 45.859 L -21.484 48.949 C -20.534 46.099 -17.884 43.989 -14.754 43.989 Z"></path></g></svg>
+                              Continuar con Google
+                        </button>
+                    </div>
+                    <div class="main-form__button" id="button-apple">
+                        <button class="button__style" id="white-button"><svg viewBox="0 0 256 315">
+                            <g><path d="M213.803394,167.030943 C214.2452,214.609646 255.542482,230.442639 256,230.644727 C255.650812,231.761357 249.401383,253.208293 234.24263,275.361446 C221.138555,294.513969 207.538253,313.596333 186.113759,313.991545 C165.062051,314.379442 158.292752,301.507828 134.22469,301.507828 C110.163898,301.507828 102.642899,313.596301 82.7151126,314.379442 C62.0350407,315.16201 46.2873831,293.668525 33.0744079,274.586162 C6.07529317,235.552544 -14.5576169,164.286328 13.147166,116.18047 C26.9103111,92.2909053 51.5060917,77.1630356 78.2026125,76.7751096 C98.5099145,76.3877456 117.677594,90.4371851 130.091705,90.4371851 C142.497945,90.4371851 165.790755,73.5415029 190.277627,76.0228474 C200.528668,76.4495055 229.303509,80.1636878 247.780625,107.209389 C246.291825,108.132333 213.44635,127.253405 213.803394,167.030988 M174.239142,50.1987033 C185.218331,36.9088319 192.607958,18.4081019 190.591988,0 C174.766312,0.636050225 155.629514,10.5457909 144.278109,23.8283506 C134.10507,35.5906758 125.195775,54.4170275 127.599657,72.4607932 C145.239231,73.8255433 163.259413,63.4970262 174.239142,50.1987249" fill="#000000"></path>
+                            </g></svg>Continuar con Apple
+                        </button>
+                    </div>
+                    <div class="main-form__conditions">
+                        <p>Si continúas con Google o Apple y aún no tienes ninguna cuenta de WordPress.com, crearás una cuenta, lo que significa que aceptas nuestras <a>condiciones del servicio</a></p>
+                    </div>
+                </div>
+                <div class="main-form__crud-suggestion">
+                    <div class="button-suggestion">
+                        <h4>Crea una cuenta</h4>
+                    </div>
+                    <div class="button-suggestion">
+                        <h4>Enviadme un enlace de acceso por correo electrónico</h4>
+                    </div>
+                    <div class="button-suggestion">
+                        <h4>¿Has olvidado tu contraseña?</h4>
+                    </div>
+                </div>
+            </form> 
+        </main>
+        <script src="js/main.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+            WebFont.load({
+                google: {
+                    families: ['Ubuntu:700,700i', 'Ubuntu+Condensed:400']
+                }
+            });        
+        </script>
+
+        <!-- 
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            
+            ga('create', '', 'auto');
+            ga('send', 'pageview');
+        </script> 
+        -->
+    </body>
+</html>

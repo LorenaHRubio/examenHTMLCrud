@@ -1,0 +1,132 @@
+/*====================
+=======Structure======
+======================*/
+body{
+    background-color: hsl(0, 0%, 96%);
+    display:flex; 
+    flex-direction:column;    
+    margin: 1em auto;
+    min-height: 100vh;
+    width: 90%;
+    font-family: 'Roboto';
+}
+main{
+    width:60%;
+    padding: 0 20%;
+}
+.main-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+}
+.main-form__subtitle{
+    margin: 2em;
+}
+.main-form__conditions{
+    text-align: center;
+    font-size: small;
+}
+/*====================
+======Typography======
+======================*/
+h1, h2, h3, h4, h5, h6, a, p{
+    font-family: 'Roboto';
+    color: hsl(0, 0%, 35%);
+}
+h3{
+    text-align: center;
+    font-weight: normal;
+    padding-top: 4em;
+}
+h4{
+    display: inline;
+}
+a{
+    cursor: pointer;
+    color: hsl(195, 93%, 40%);
+}
+/*====================
+========Image=========
+======================*/
+img {
+    max-width: 100%;
+}
+/*====================
+========CRUD=========
+======================*/
+.main-form__crud{
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 72%);
+    width: 35%;
+    padding: 2em;
+}
+.crud__form-input input{
+    width: 100%;
+    padding: 0.8em;
+    border: solid 1px hsl(240, 3%, 87%);
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-bottom: 1em;
+}
+.crud__form-label{
+    margin-bottom: 1em;
+    font-weight: 800;
+    text-align: center;
+}
+.button__style{
+    border-radius: 0.2em;
+    color: hsl(0, 0%, 100%);
+	padding: 0.5em 0em;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+#pink-button{
+    margin-top: 1em;
+    background-color: hsl(330, 77%, 40%);
+}
+#white-button
+{
+    color: hsl(0, 0%, 0%);
+    border: 1px solid hsl(0, 0%, 72%);
+    background-color: hsl(0, 0%, 100%);
+}
+#button-apple{
+    margin: 1em 0;
+}
+.main-form__button svg{
+    width: 1em;
+    padding-right: 0.5em;
+}
+
+.main-form__draw{
+    background-color: hsl(0, 0%, 100%);
+    position:absolute;
+    z-index: 1001;
+    top: 41.7%;
+    width: 1em;
+    height: 1em;
+}
+#draw{
+    padding: 0.1em;
+    color: hsl(0, 0%, 76%);
+}
+.main-form__crud-suggestion{
+    padding: 1em;
+    background-color: hsl(0, 0%, 96%);
+    width: 42%;
+}
+.button-suggestion{
+
+    padding: 1em;
+    text-align: center;
+    border-bottom: hsl(0, 0%, 72%) 1px solid;
+}
+.button-suggestion h4{
+    font-weight: 600;
+    color: hsl(0, 0%, 50%);
+    cursor: pointer;
+}
