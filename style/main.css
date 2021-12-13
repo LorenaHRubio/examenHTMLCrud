@@ -83,8 +83,6 @@ img {
     width: 100%;
     display: inline-flex;
     justify-content: center;
-}
-#pink-button{
     margin-top: 1em;
     background-color: hsl(330, 77%, 40%);
 }

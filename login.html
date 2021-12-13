@@ -23,7 +23,7 @@
     
     <body>
         <main>
-            <form class="main-form">
+            <form class="main-form" id="login-form">
                 <div class="main-form__subtitle">
                     <h3>Accede a tu cuenta</h3>
                 </div>
@@ -34,16 +34,22 @@
                     <div class="crud__form-input">
                         <input type="email" name="email">
                     </div>
+                    <div class="crud__form-label">
+                        <label for="email">Contraseña</label>
+                    </div>
+                    <div class="crud__form-input">
+                        <input type="password" name="password">
+                    </div>
                     <div class="main-form__conditions">
                         <p>Al continuar, aceptas nuestras <a>condiciones del servicio</a></p>
                     </div>
                     <div class="main-form__button">
-                        <button class="button__style" id="pink-button">Continuar</button>
+                        <button class="button__style" id="login-button">Continuar</button>
                     </div>
                 </div>
-                <div class="main-form__draw">
+                <!--<div class="main-form__draw">
                     <p id="draw">O</p>
-                </div>
+                </div>-->
                 <div class="main-form__crud">
                     <div class="main-form__button">
                         <button class="button__style" id="white-button"><svg viewBox="0 0 24 24">
@@ -78,7 +84,7 @@
                 </div>
             </form> 
         </main>
-        <script src="js/main.js"></script>
+        <script src="js/loginForm.js"></script>
 
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
         <script>
